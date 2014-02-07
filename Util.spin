@@ -42,7 +42,7 @@ obj
 pub calc_currentmotor(x) : pwm |a,b
 ''MATLAB Computed Equation: (33*1000)./(x.^2);
 
-  pwm := (33*1000)/(x*x) 
+  pwm := (200*500)/(x*x*x) 
 pub calc_opposingmotor(x) : pwm
 ''MATLAB Computed Equations:
   pwm := -calc_currentmotor(x)
